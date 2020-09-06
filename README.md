@@ -10,3 +10,5 @@ cd ..
 docker/run_docker.sh your_docker_image_name
 ```
 After you run the docker container, you can call our methods in the python environment, or run example python files in the "examples" folder.
+
+The "budget" parameter of methods corresponds to the length constraint K in the paper.
