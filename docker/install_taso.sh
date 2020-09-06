@@ -20,11 +20,11 @@ set -u
 set -o pipefail
 
 cd /usr
-git clone --recursive https://github.com/Experiment-code/TASOMerge.git
-cd /usr/TASOMerge
+git clone --recursive https://github.com/Experiment-code/OCGGS.git
+cd /usr/OCGGS
 mkdir -p build
 cd build
 cmake ..
 sudo make install -j10
-cd /usr/TASOMerge/python
+cd /usr/OCGGS/python
 python setup.py install
