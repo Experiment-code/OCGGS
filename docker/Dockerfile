@@ -43,11 +43,11 @@ RUN /opt/conda/bin/conda install -c conda-forge graph-tool
 #RUN /opt/conda/bin/conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 
 ENV PATH /opt/conda/bin:$PATH
-ENV TASO_HOME /usr/TASOMerge/
+ENV TASO_HOME /usr/OCGGS/
 
 COPY install_taso.sh /install/install_taso.sh
 RUN bash /install/install_taso.sh
 
-WORKDIR /usr/TASOMerge
-RUN chmod -R a+w /usr/TASOMerge
-#RUN chmod -R 777 /usr/TASOMerge
+WORKDIR /usr/OCGGS
+RUN chmod -R a+w /usr/OCGGS
+#RUN chmod -R 777 /usr/OCGGS
