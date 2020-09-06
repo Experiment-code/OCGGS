@@ -18,7 +18,7 @@
 IMAGE_NAME=("$1")
 COMMAND="bash"
 
-WORKSPACE="/usr/TASOMerge"
+WORKSPACE="/usr/OCGGS"
 
 echo "WORKSPACE: ${WORKSPACE}"
 echo "IMAGE NAME: ${IMAGE_NAME}"
